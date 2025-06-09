@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-family: areal;
+}
+header{
+    height: 50px;
+}
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    display: inline-flex;
+}
+.nav-hamburger{
+    height: 40px;
+    width: 50px;
+font-size: 30px;
+cursor: pointer;
+display: inline-flex;
+color: black; 
+padding-top: 7px;
+border-left: 10px;
+}
+.nav-logo{
+    height: 45px;
+    width: 75px;
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: auto;
+}
+.nav-logo:hover{
+    cursor: pointer;
+}
+#nav-youtube{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-flex;
+}
+.nav-search{
+    height: 40px;
+    width: 500px;
+    display: inline-flex;
+    margin-left: 150px;
+    margin-top: 0px;
+}
+.search-box{
+    font-size: 20px;
+    width: 700px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.nav-search-icon
+{
+    display: inline-flex;
+    height: 38px;
+    width: 70px;
+    margin-top: 0px;
+    background-color: grey;
+    margin-left: 0px;
+    margin-right: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    align-items: center;
+    border: solid 1px;
+    justify-content: center;
+    font-size: 25px;
+}
+.nav-search-icon:hover{
+    cursor: pointer;
+}
+.nav-signin{
+    height: 40px;
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 20px;
+    align-items: center;
+    display: inline-flex;
+}
+.nav-signin:hover{
+    cursor: pointer;
+}
+.menu-home{
+    display: flex;
+    font-size: 20px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.menu-shorts{
+    display: flex;
+    font-size: 20px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.menu-subscriptions{
+    display: flex;
+    font-size: 20px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.menu-you{
+    display: inline-flex;
+    font-size: 20px;
+    padding-top: 50px;
+    cursor: pointer;
+}
+.offline{
+    height: 100px;
+    width: 100px;
+    display: inline-flex;
+    padding-left: 500px;
+    background-color: transparent;
+}
+#you-are-offline{
+font-size: 30px;
+display: inline-flex;
+padding-left: 420px;
+}
+#offline-description{
+padding-left: 400px;
+font-size: 20px;
+display: inline-flex;
+}
+#last
+{
+    background-color: black;
+    height: 30px;
+    font-size: 10px;
+    margin-top: 190px;
+    text-align: center;
+}
+#last-nav{
+    color: white;
+    font-size: 16px;
+}
